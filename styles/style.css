@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  background-image: url("../images/gettyimages-1216986138-640x640.jpg");
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+h1 {
+  background-color: rgb(59, 165, 197);
+  width: 200px;
+  /* align-self: center; */
+  margin: auto;
+}
+
+#game-board {
+    /* float: left; */
+    padding: 20px 0px;
+    background-color: black;
+    /* opacity: 0.9; */
+    height: 500px;
+    width: 900px;
+    align-self: center;
+    margin: 30px;
+}
