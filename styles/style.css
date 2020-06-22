@@ -22,7 +22,7 @@ h1 {
 #game-board {
     /* float: left; */
     padding: 20px 0px;
-    background-color: black;
+    background-image: url("../images/game-background.png");
     /* opacity: 0.9; */
     height: 500px;
     width: 900px;
