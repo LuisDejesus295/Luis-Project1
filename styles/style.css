@@ -3,29 +3,93 @@ body {
   text-align: center;
   overflow: hidden;
   width: 100%;
-  background-image: url("../images/gettyimages-1216986138-640x640.jpg");
+  height: 100vh;
+  /* background-color: grey; */
+  background-image: url("../images/wp2394184-anime-sky-wallpapers\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Cormorant', serif;
+}
+
+h1 {
+  /* background-color: rgb(59, 165, 197); */
+  width: 400px;
+  /* align-self: center; */
+  margin: auto;
+  padding: 20px;
+  color: white;
 }
 
 .section1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
+  background-color: rgb(59, 57, 57);
+  opacity: 0.8;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  color: white;
+  padding: 20px;
 }
 
-h1 {
-  background-color: rgb(59, 165, 197);
-  width: 200px;
-  /* align-self: center; */
-  margin: auto;
+
+
+.section1 h3 {
+  font-size: 30px;
+  
 }
 
 #game-board {
     /* float: left; */
-    padding: 20px 0px;
-    background-image: url("../images/game-background.png");
-    /* opacity: 0.9; */
-    height: 500px;
-    width: 900px;
+    /* padding: 20px 0px; */
+    /* background-image: url('../images/landscape-at-morning-for-game-background-vector-14966453.jpeg');
+    background-size: cover; */
+    opacity: .9;
+    height: 600px;
+    width: 700px;
     align-self: center;
-    margin: 30px;
+    margin: auto;
+}
+
+#instructions {
+  width: 300px;
+  margin: auto;
+}
+
+#start {
+  color: white;
+  margin: auto;
+  border: 1px solid white;
+  padding: 5px 20px;
+}
+
+#reset {
+  color: white;
+  margin: auto;
+  border: 1px solid white;
+  background-color: none;
+  padding: 5px 20px;
+
+}
+
+#game-btn {
+  padding-top: 40px;
+}
+
+
+
+
+
+
+.animate{
+  animation: jump 500ms;
+}
+
+@keyframes jump{
+  0%{top: 150px;}
+  30%{top: 100px;}
+  70%{top: 100px;}
+  100%{top: 150px;}
+
 }
