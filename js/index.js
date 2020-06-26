@@ -11,11 +11,11 @@ const startBtn = document.querySelector(`#start`)
 if(startBtn) startBtn.onclick = () => {play()}
 if (canvas){const cxt = canvas.getContext('2d')
 let sprite = new Image()
-sprite.src = '../images/sprite.png'
+sprite.src = 'images/sprite.png'
 let background = new Image()
-background.src = '../images/landscape-at-morning-for-game-background-vector-14966453.jpeg'
+background.src = 'images/landscape-at-morning-for-game-background-vector-14966453.jpeg'
 let imageobj = new Image()
-imageobj.src = `../images/game-object-removebg-preview.png`
+imageobj.src = `images/game-object-removebg-preview.png`
 let xPositionSprite = 0;
 let yPositionSprite = 430;
 let imageX = 0
