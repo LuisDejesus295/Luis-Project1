@@ -16,7 +16,7 @@ h1 {
   width: 400px;
   /* align-self: center; */
   margin: auto;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   color: white;
 }
 
@@ -70,6 +70,13 @@ h1 {
   border: 1px solid white;
   background-color: none;
   padding: 5px 20px;
+}
+
+#home {
+  color: white;
+  margin: auto;
+  border: 1px solid white;
+  padding: 5px 20px;
 
 }
 
@@ -77,19 +84,12 @@ h1 {
   padding-top: 40px;
 }
 
-
-
-
-
-
-.animate{
-  animation: jump 500ms;
-}
-
-@keyframes jump{
-  0%{top: 150px;}
-  30%{top: 100px;}
-  70%{top: 100px;}
-  100%{top: 150px;}
-
+#level2 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  /* background-color: rgb(59, 57, 57);
+  opacity: 0.8;
+  width: 40px;
+  align-self: center; */
 }
